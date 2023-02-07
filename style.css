@@ -1,3 +1,23 @@
+@font-face {
+	font-family: "AppleSDGothicNeoL";
+	src: url("./Fonts/AppleSDGothicNeoL.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "AppleSDGothicNeoM";
+	src: url("./Fonts/AppleSDGothicNeoM.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "AppleSDGothicNeoB";
+	src: url("./Fonts/AppleSDGothicNeoB.ttf") format("truetype");
+}
+
+body {
+	font-family: "AppleSDGothicNeoL";
+	font-size: 1em;
+}
+
 table,
 td,
 tr {
@@ -7,12 +27,14 @@ tr {
 }
 
 .dimension {
+	font-family: "AppleSDGothicNeoM";
+	font-weight: bold;
 	width: 50px;
 	text-align: center;
-	font-weight: bold;
 }
 
 h2,
 h3 {
+	font-family: "AppleSDGothicNeoB";
 	display: inline;
 }
