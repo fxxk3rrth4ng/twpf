@@ -9,8 +9,8 @@
 }
 
 @font-face {
-	font-family: "AppleSDGothicNeoB";
-	src: url("./Fonts/NanumSquareEB.ttf") format("truetype");
+	font-family: "PretendardReg";
+	src: url("./Fonts/Pretendard-Regular.otf") format("truetype");
 }
 
 body {
@@ -33,8 +33,8 @@ tr {
 	text-align: center;
 }
 
-h2,
-h3 {
-	font-family: "AppleSDGothicNeoB";
+h1,
+h2 {
+	font-family: "PretendardReg";
 	display: inline;
 }
