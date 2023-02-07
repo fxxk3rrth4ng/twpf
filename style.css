@@ -11,3 +11,8 @@ tr {
 	text-align: center;
 	font-weight: bold;
 }
+
+h2,
+h3 {
+	display: inline;
+}
