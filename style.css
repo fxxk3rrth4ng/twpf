@@ -38,3 +38,26 @@ h2 {
 	font-family: "PretendardReg";
 	display: inline;
 }
+
+sup {
+	font-weight: normal;
+	font-size: 0.6em;
+}
+
+.icon {
+	height: 1.5em;
+}
+
+li {
+	margin-left: 15px;
+}
+
+a {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
