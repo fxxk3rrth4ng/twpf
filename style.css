@@ -21,14 +21,6 @@ body {
 	height: 100%;
 }
 
-table,
-td,
-tr {
-	border: 1px solid black;
-	border-collapse: collapse;
-	padding: 5px;
-}
-
 .dimension {
 	font-family: "AppleSDGothicNeoM";
 	font-weight: bold;
@@ -42,17 +34,11 @@ h2 {
 	display: inline;
 }
 
-sup {
-	font-weight: normal;
-	font-size: 0.6em;
-}
-
 .icon {
 	height: 20px;
 }
 
 li {
-	margin-left: 15px;
 	margin-bottom: 5px;
 }
 
@@ -72,4 +58,8 @@ footer {
 	position: fixed;
 	bottom: 0;
 	font-size: smaller;
+}
+
+.footer {
+	font-weight: bold;
 }
