@@ -16,6 +16,9 @@
 body {
 	font-family: "AppleSDGothicNeoL";
 	font-size: 1em;
+	text-align: center;
+	align-items: center;
+	height: 100%;
 }
 
 table,
@@ -61,4 +64,12 @@ a {
 a:hover {
 	text-decoration: underline;
 	font-weight: bold;
+}
+
+footer {
+	width: 100%;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	font-size: smaller;
 }
