@@ -22,25 +22,10 @@ body {
 	word-break: keep-all;
 }
 
-.dimension {
-	font-family: "AppleSDGothicNeoM";
-	font-weight: bold;
-	width: 50px;
-	text-align: center;
-}
-
 h1,
 h2 {
 	font-family: "PretendardReg";
 	display: inline;
-}
-
-.icon {
-	height: 20px;
-}
-
-li {
-	margin-bottom: 5px;
 }
 
 a {
