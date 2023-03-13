@@ -19,6 +19,7 @@ body {
 	text-align: center;
 	align-items: center;
 	height: 100%;
+	word-break: keep-all;
 }
 
 .dimension {
@@ -62,4 +63,48 @@ footer {
 
 .footer {
 	font-weight: bold;
+}
+
+table,
+td,
+tr {
+	align-items: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	width: 110px;
+}
+
+.tableIcon {
+	height: 75px;
+	transition-duration: 100ms;
+}
+
+.tableIcon:hover {
+	height: 90px;
+	margin: 0 0 0 0;
+	transition-duration: 100ms;
+}
+
+.iconTr {
+	height: 110px;
+}
+
+.watchaPedia {
+	background: #ff0058;
+}
+
+.solvedac {
+	background: #17ce3a;
+}
+
+.gitHub {
+	background: black;
 }
